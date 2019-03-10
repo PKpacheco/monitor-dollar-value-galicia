@@ -20,7 +20,6 @@ def run_webscrap():
         print(p.text.strip())
     result_list
 
-    i=1
     with open('dolar.txt', 'r') as dolar_file:
         new_value = float(result_list[2][1:].replace(',', '.'))
         old_value = float(dolar_file.read()[1:].replace(',', '.'))
