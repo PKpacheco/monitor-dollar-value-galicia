@@ -3,6 +3,7 @@ import urllib.request
 import time
 from bs4 import BeautifulSoup
 
+
 def run_webscrap():
     #set the url you want to webscrap
     url = 'https://www.infodolar.com/cotizacion-dolar-entidad-banco-galicia.aspx'
