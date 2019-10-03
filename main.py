@@ -29,9 +29,9 @@ def run_webscrap():
         if new_value > old_value:
             print ("Dolar increase")
         elif new_value == old_value:
-            print ("Dolar stable")  
+            print ("Dolar stable")
         else:
-            print ("Dolar decrease")  
+            print ("Dolar decrease")
         print('####################')
 
     with open('dolar.txt', 'w') as dolar_file:
