@@ -5,10 +5,10 @@ from bs4 import BeautifulSoup
 
 
 def run_webscrap():
-    #set the url you want to webscrap
+    # set the url you want to webscrap
     url = 'https://www.infodolar.com/cotizacion-dolar-entidad-banco-galicia.aspx'
 
-    #connect to url
+    # connect to url
     response = requests.get(url)
 
     # parse HTML and save bs4 object
