@@ -42,4 +42,5 @@ def run_webscrap():
 if __name__ == '__main__':
     while True:
         run_webscrap()
+        # run each 1 hour
         time.sleep(3600)
